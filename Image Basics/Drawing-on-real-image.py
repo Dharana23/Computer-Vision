@@ -6,7 +6,7 @@ def draw_circle(event,x,y,flags,param):
         cv2.circle(img,(x,y),100,(0,0,255),-1)
 
 
-img = cv2.imread("/home/dharana/Desktop/OpenCV/Computer-Vision-with-Python/DATA/dog_backpack.jpg")
+img = cv2.imread("dog_backpack.jpg")
 cv2.namedWindow(winname='dog')
 cv2.setMouseCallback('dog',draw_circle)
 
