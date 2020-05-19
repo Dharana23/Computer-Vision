@@ -4,11 +4,11 @@ cap = cv2.VideoCapture(0)
 width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
 height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
 
-x = int(width // 2)
-y = int(height // 2)
+x = int(width / 2)
+y = int(height / 2)
 
-w = int(width // 4)
-h = int(height // 4)
+w = int(width / 4)
+h = int(height / 4)
 
 while True:
 	ret, frame = cap.read()
